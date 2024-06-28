@@ -23,6 +23,5 @@ public class LightFlicker : MonoBehaviour
             time = 0;
         }
         light.intensity = Mathf.Lerp(light.intensity, target, transitionSpeed * Time.deltaTime * Time.timeScale);
-        Ra
     }
 }
